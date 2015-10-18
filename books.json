@@ -1,5 +1,4 @@
 [
-{
     	{
         "book-title": "Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies",
         "book-author": ["John D. Kelleher","Brian Mac Namee", "Aoife D'Arcy"],
@@ -11,7 +10,7 @@
         "book-title": "Machine Learning: Hands-On for Developers and Technical Professionals",
         "book-author": "Jason Bell",
         "book-date": "2014-11-03T00:00:00Z",
-        "book-publisher": "John Wiley & Sons Inc"
+        "book-publisher": "John Wiley and Sons Inc"
     	}
 	,
 	{
@@ -20,5 +19,4 @@
         "book-date": "2013-10-25T00:00:00Z",
         "book-publisher": "Packt Publishing"
     	}
-}
 ]
