@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <books>
-   <book>
-     <title>"Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies"</title>
-     <author>
-       <name>"John D. Kelleher"</name>
-       <name>"Brian Mac Namee"</name>
-       <name>"Aoife D'Arcy"</name>
-     </author>
-     <publicationDate>2015-07-04</publicationDate>
-     <publisher>"Massachusetts Institute of Technology"</publisher>
-   </book>
-   <book>
-     <title>"Machine Learning: Hands-On for Developers and Technical Professionals"</title>
-     <author>
-       <name>"Jason Bell"</name>
-     </author>
-     <publicationDate>2014-11-03</publicationDate>
-     <publisher>"John Wiley and Sons Inc"</publisher>
-   </book>
-   <book>
-     <title>"Machine Learning with R"</title>
-     <author>
-       <name>"Brett Lantz"</name>
-     </author>
-     <publicationDate>2013-11-25</publicationDate>
-     <publisher>"Packt Publishing"</publisher>
-   </book>
- </books>
- 
+<books>
+   	<book>
+     		<title>Fundamentals of Machine Learning for Predictive Data Analytics: Algorithms, Worked Examples, and Case Studies</title>
+     		<author>
+       			<name>John D. Kelleher</name>
+       			<name>Brian Mac Namee</name>
+       			<name>Aoife D'Arcy</name>
+     		</author>
+     		<publicationDate>2015-07-04</publicationDate>
+     		<publisher>Massachusetts Institute of Technology</publisher>
+   	</book>
+   	<book>
+     		<title>Machine Learning: Hands-On for Developers and Technical Professionals</title>
+     		<author>
+       			<name>Jason Bell</name>
+     		</author>
+     		<publicationDate>2014-11-03</publicationDate>
+     		<publisher>John Wiley and Sons Inc</publisher>
+   	</book>
+   	<book>
+     		<title>Machine Learning with R</title>
+     		<author>
+       			<name>Brett Lantz</name>
+     		</author>
+     		<publicationDate>2013-11-25</publicationDate>
+     		<publisher>Packt Publishing</publisher>
+   	</book>
+</books>
