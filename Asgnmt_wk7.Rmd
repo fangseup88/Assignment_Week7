@@ -1,0 +1,59 @@
+---
+title: "Untitled"
+author: "Edwige"
+date: "October 18, 2015"
+output: html_document
+---
+```{r}
+library(XML)
+library(RCurl)
+library(rjson)
+library(RJSONIO)
+library(jsonlite)
+```
+
+#Processing the HTML file
+```{r}
+#File location
+url4html <-"https://raw.githubusercontent.com/fangseup88/Assignment_Week7/master/books.html"
+
+#Getting the data file
+file4html <- getURL(url4html)
+
+#Create dataframe 
+df4html <-  data.frame(readHTMLTable(file4html))
+```
+
+#Processing XML file
+```{r}
+url4xml <-"https://raw.githubusercontent.com/fangseup88/Assignment_Week7/master/books.xml"
+#Getting the data file
+file4xml <- getURL(url4xml)
+#Create dataframe 
+intermxml <- xmlTreeParse(file4xml)
+df4xml<-data.frame(xmlToList(intermxml, addAttributes=FALSE))
+```
+
+#Processing JSON file
+```{r}
+#Location of the file
+url4json <-"https://raw.githubusercontent.com/fangseup88/Assignment_Week7/master/books.json"
+#Getting the data file
+file4json <- getURL(url4json)
+#Create dataframe 
+df4json <- data.frame(fromJSON(file4json))
+
+```
+
+#Print the results
+```{r}
+#data frame for HTML
+print(df4html)
+#data frame for XML
+print(df4xml)
+#data frame for JSON
+print(df4json)
+```
+
+#Conclusion
+All the data frames contain the informations displayed  in the initial files. It is showing that the data frames for HTML and JSON have the same structure. In those datafiles, the informations about the books are mixed together. The data frame for XML is different, it follows the input file structure. 
